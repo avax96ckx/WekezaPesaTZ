@@ -19,7 +19,6 @@ import BottomNav from "@/components/layout/BottomNav";
 import BadgeIcon, { BADGE_OPTIONS } from "@/components/features/BadgeIcon";
 import bgImg from "@/assets/bg-gradient.jpg";
 import { toast } from "sonner";
-import { QRCodeSVG } from "qrcode.react";
 
 export default function Home() {
   const navigate = useNavigate();
