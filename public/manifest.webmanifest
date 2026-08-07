@@ -1,0 +1,43 @@
+{
+  "name": "WEKEZA PESA TZ",
+  "short_name": "WEKEZA",
+  "description": "Wekeza pesa yako na upate faida ya 10% kila siku kwa siku 10. Jukwaa bora la uwekezaji Tanzania.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0a0a3a",
+  "theme_color": "#1e3a8a",
+  "orientation": "portrait",
+  "lang": "sw",
+  "categories": ["finance", "business"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Wekeza Pesa",
+      "short_name": "Wekeza",
+      "description": "Weka uwekezaji mpya",
+      "url": "/invest",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Weka Pesa",
+      "short_name": "Deposit",
+      "description": "Weka pesa kwenye akaunti",
+      "url": "/deposit",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

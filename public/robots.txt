@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wekeza-pesa-tz.vercel.app/sitemap.xml
